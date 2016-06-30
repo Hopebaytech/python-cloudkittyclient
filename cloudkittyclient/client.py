@@ -176,6 +176,7 @@ class AuthPlugin(auth.BaseAuthPlugin):
                 'key': self.opts.get('key'),
                 'insecure': strutils.bool_from_string(
                     self.opts.get('insecure')),
+                'region_name': self.opts.get('region_name'),
                 'endpoint_type': self.opts.get('endpoint_type'),
             }
 
